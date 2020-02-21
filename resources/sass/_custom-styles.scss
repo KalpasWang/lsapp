@@ -7,3 +7,13 @@ body {
 a {
     color: #636b6f;
 }
+
+.ellipsis {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+b, strong {
+    font-weight: bold;
+}

@@ -28,8 +28,9 @@
             </div>
         </nav>
         <div class="container">
+            <br>
             @yield('content')
         </div>
-        <script src="js/custom.js"></script>
+        <script src="{{asset('js/bootstrap.bundle.min.js')}}"></script>
     </body>
 </html>
