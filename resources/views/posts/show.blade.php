@@ -6,7 +6,7 @@
     <small>Posted at {{$post->created_at}}</small>
     <br><br>
     <div>
-        {{$post->body}}
+        {!!$post->body!!}
     </div>
 @endsection
         
